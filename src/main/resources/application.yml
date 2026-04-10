@@ -4,6 +4,10 @@ spring:
   profiles:
     active: local
   ai:
+    mcp:
+      client:
+        stdio:
+          servers-configuration: classpath:mcp-servers.json
     dashscope:
       api-key: sk-828085005cd343ba942a5ffbf2320c5c
       chat:

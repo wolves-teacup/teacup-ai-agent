@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.UUID;
 
-@SpringBootTest
+@SpringBootTest(properties = "spring.profiles.active=test")
 class TeacupAiAgentApplicationTests {
 
     @Resource
