@@ -9,7 +9,7 @@ spring:
         stdio:
           servers-configuration: classpath:mcp-servers.json
     dashscope:
-      api-key: sk-828085005cd343ba942a5ffbf2320c5c
+      api-key: 
       chat:
         options:
           model: qwen-plus
